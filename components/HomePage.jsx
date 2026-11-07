@@ -821,7 +821,11 @@ export default function HomePage() {
             <a href="#reviews">Reviews</a>
             <a href="#saas">SaaS</a>
             <a href="#process">Process</a>
-            <a className="btn" href="#lead-form" onClick={toForm}>
+            <a className="btn" 
+            style={{
+              color:"white"
+            }}
+             href="#lead-form" onClick={toForm}>
               Get a quote
             </a>
           </nav>
