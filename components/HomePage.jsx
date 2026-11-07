@@ -89,6 +89,10 @@ const services = [
     d: "Dashboards, portals and internal tools shaped around how your team actually works.",
   },
   {
+    t: "Mobile applications",
+    d: "Cross-platform iOS and Android apps built with React Native, delivering native performance and smooth UI.",
+  },
+  {
     t: "SaaS products",
     d: "Subscriptions, billing, multi-user accounts and admin panels, ready to launch and scale.",
   },
@@ -866,7 +870,7 @@ export default function HomePage() {
           <div className="grid4">
             {services.map((s, i) => (
               <article className="svc" key={s.t}>
-                <div className="ic">{["</>", "⚙", "☁", "▣"][i]}</div>
+                <div className="ic">{["</>", "⚙","📱", "☁", "▣", ][i]}</div>
                 <h3>{s.t}</h3>
                 <p>{s.d}</p>
               </article>

@@ -88,7 +88,7 @@ export function Footer() {
         </div>
         <div className="ft-bot">
           <span>© {new Date().getFullYear()} BrandingHopes. All rights reserved.</span>
-          <span>Full stack development · Custom software · SaaS · Websites</span>
+          <span>Full stack development · Custom software · SaaS · Websites · Mobile Applications</span>
         </div>
       </div>
     </footer>
